@@ -1,5 +1,6 @@
 def laukums(g,p):
     m2 = g*p
+    thisdict={'laukum': m2}
     return m2
 def linolejs(cena):
-    m2/cena 
+    thisdict.get('laukum')/cena
