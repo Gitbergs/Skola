@@ -1,0 +1,30 @@
+# dd ={}
+# ee = dict()
+# print(dd, len(dd),type(dd))
+# print(ee,len(ee),type(ee))
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict["brand"])
+
+# atslega = ['desmit', 'divdesmit', 'trisdesmit']
+# vertiba = [10,20,30]
+# x = zip(atslega, vertiba)
+# print(dict(x))
+
+vertejumi = {
+    'klase':{
+        'skolens':{
+            'vards':'Mikus',
+            'atzimes':{
+                'fizika':8,
+                'vesture':7,
+                'matematika':9
+            }
+        }
+    }
+}
+print(vertejumi['klase']['skolens']['atzimes']['vesture'])

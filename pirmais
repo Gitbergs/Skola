@@ -1,0 +1,2 @@
+x = input("Kā tevi sauc?")
+print (x,"ir jauks vārds!")
