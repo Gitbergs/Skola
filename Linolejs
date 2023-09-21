@@ -1,3 +1,5 @@
-def linolejs(g,p)
-    summa = 0
-    for sastavs,lkdslkfvld
+def laukums(g,p):
+    m2 = g*p
+    return m2
+def linolejs(cena):
+    m2/cena 
