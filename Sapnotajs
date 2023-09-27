@@ -1,0 +1,12 @@
+import math
+import random
+x=0
+horoskopi = ["Auns",'Vērsis','Dvīņi','Vēzis','Lauva','Jaunava','Svari','Skorpions','Strēlnieks','Mežāzis','Ūdensvīrs','Zivis']
+tekstsdd = ['Smagi uzelpojat', 'Dienu plecos ceļat', 'Nebūsiet zemē iearti','Laimi rokās turēdami', 'Paguruši ikdienā', 'Meklēdami ceļu', 'Verojat savu apkārtni', 'Domādami par nākotni', 'Zinādami savu ceļu','Sacīdami, ka dzīve nav šķērslis','Ēzdami dzīves augļus', 'Galvu rokās balstīdami']
+teksts = ['Veiksme būs tuvu, jāmēģina to atrast.','Dzīvē atnāks ar atgādinājumu par mūžīgo dzīves ritmu varu pār tavu ikdienu.','Iztikas pelnīšanas sfērā viss ies ne tik gludi, kā tev šķitīs no pirmā acu uzmetiena.','']
+rīk= []
+random.shuffle(tekstsdd)
+random.shuffle(teksts)
+while x < 12:
+    print(horoskopi[x],tekstsdd[x],teksts)
+    x+=1
