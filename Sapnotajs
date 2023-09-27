@@ -3,7 +3,7 @@ import random
 x=0
 horoskopi = ["Auns",'Vērsis','Dvīņi','Vēzis','Lauva','Jaunava','Svari','Skorpions','Strēlnieks','Mežāzis','Ūdensvīrs','Zivis']
 tekstsdd = ['Smagi uzelpojat', 'Dienu plecos ceļat', 'Nebūsiet zemē iearti','Laimi rokās turēdami', 'Paguruši ikdienā', 'Meklēdami ceļu', 'Verojat savu apkārtni', 'Domādami par nākotni', 'Zinādami savu ceļu','Sacīdami, ka dzīve nav šķērslis','Ēzdami dzīves augļus', 'Galvu rokās balstīdami']
-teksts = ['Veiksme būs tuvu, jāmēģina to atrast.','Dzīvē atnāks ar atgādinājumu par mūžīgo dzīves ritmu varu pār tavu ikdienu.','Iztikas pelnīšanas sfērā viss ies ne tik gludi, kā tev šķitīs no pirmā acu uzmetiena.','']
+teksts = ['Veiksme būs tuvu, jāmēģina to atrast.','Dzīvē atnāks ar atgādinājumu par mūžīgo dzīves ritmu varu pār tavu ikdienu.','Iztikas pelnīšanas sfērā viss ies ne tik gludi, kā tev šķitīs no pirmā acu uzmetiena.','Privātajā biznesā lietas kārtosies bez tavas pārcilvēcīgas piepūles.']
 rīk= []
 random.shuffle(tekstsdd)
 random.shuffle(teksts)
