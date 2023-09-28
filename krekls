@@ -1,0 +1,10 @@
+def pasuti_tkreklus(skaits,apdruka,piegade):
+    if apdruka==('TEKSTS'):
+        print('Cena ir 5 eiro')
+    elif apdruka==('ZIME'):
+        print('Cena ir 7 eiro')
+    elif apdruka==('FOTO'):
+        print('Cena ir 20 eiro')
+    else:
+        print('Ievadiet drukas veidu: TEKSTS, ZIME vai FOTO')
+print(pasuti_tkreklus(2,'ZIME','faf'))
