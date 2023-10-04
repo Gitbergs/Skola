@@ -1,3 +1,4 @@
+# 2. UZD
 import random
 x=0
 x1=1
@@ -22,3 +23,5 @@ while x < 12:
     x3+=1
     print(rīk[x])
     x+=1
+
+# Funkcijā izveidota sistēmā, kurā ir iespējams gūt iknedēļas horoskopu prognozes, tās sastāv no horoskopa, divdabi, 4 tekstiem un 1 rīkojumam
