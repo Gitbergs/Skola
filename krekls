@@ -1,0 +1,31 @@
+# 3. UZD
+def pasuti_tkreklus(skaits,apdruka,piegade):
+    if apdruka==('TEKSTS'):
+        print('Cena ir ',skaits*5,'eiro')
+    elif apdruka==('ZIME'):
+        print('Cena ir',skaits*7,'eiro')
+    elif apdruka==('FOTO'):
+        print('Cena ir',skaits*20,'eiro')
+    else:
+        print('Ievadiet skaitu , Ievadiet drukas veidu: TEKSTS, ZIME vai FOTO , Ievadiet 0, ja piegāde nav vajadzīga, jā, ja piegāde ir vajadzīga')
+
+    if bool(piegade)==True and apdruka == 'TEKSTS' and skaits*5 < 50:
+        print('+15 eiro kopsummai, jaunā kopsumma -',skaits*5+15, 'iegādājaties vērtībā pār pa 50 eiro un pa piegādi maksājat neko, tā tiks apmaksāt no mūsu puses')
+    elif bool(piegade)==True and apdruka == 'ZIME' and skaits*7 < 50:
+        print('+15 eiro kopsummai, jaunā kopsumma -', skaits*7+15, 'iegādājaties vērtībā pār pa 50 eiro un pa piegādi maksājat neko, tā tiks apmaksāt no mūsu puses')
+    elif bool(piegade)==True and apdruka == 'FOTO' and skaits*5 < 50:
+        print('+15 eiro kopsummai, jaunā kopsumma -',skaits*20+15, 'iegādājaties vērtībā pār pa 50 eiro un pa piegādi maksājat neko, tā tiks apmaksāt no mūsu puses')
+    else:
+        print('Par piegādi papildus nav jāmaksā, piegāde tiek apmaksāta')
+    
+    if apdruka == 'TEKSTS'and skaits*5 >100:
+        print('jums tiek piešķirta 5% atlaide jūsu pirkumam, jaunā summa -', skaits*5-skaits*5*5/100)
+    elif apdruka == 'ZIME'and skaits*7 >100:
+        print('jums tiek piešķirta 5% atlaide jūsu pirkumam, jaunā summa -', skaits*7-skaits*7*5/100)
+    elif apdruka == 'FOTO'and skaits*20 >100:
+        print('jums tiek piešķirta 5% atlaide jūsu pirkumam, jaunā summa -', skaits*20-skaits*20*5/100)
+    else:
+        print('veicat pasūtījumu, kas pārsniedz 100 eiro, lai iegūtu 5% atlaidi')
+print(pasuti_tkreklus(3,'FOTO','jā'))
+
+# Funkcija izgatavota, lai veiktu pasūtījuma aprēķināšana, ievadot dotās vērtības tiek izdots kopsumma pasūtītājam, kā arī paskaidrojumi, kā pasūtītājs varētu spēt gūt atlaides
