@@ -1,4 +1,7 @@
+# 1.UZD
 def laukums(g,p,cena):
     m2 = g*p
     return m2,'kvadrātmetri',m2*cena,"cena"
 print(laukums(2,3,6))
+
+# Veidota funkcija, kura ievadot vajadzīgos lielumus, tas ir, apklājamās vietas garumu, platumu un cenu kvadrātmetrā, tiek izdots cik kvadrātmeri būs vajadzīgs, lai visu izklātu, kā arī, tā cena.
