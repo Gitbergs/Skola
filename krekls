@@ -27,3 +27,5 @@ def pasuti_tkreklus(skaits,apdruka,piegade):
     else:
         print('veicat pasūtījumu, kas pārsniedz 100 eiro, lai iegūtu 5% atlaidi')
 print(pasuti_tkreklus(3,'FOTO','jā'))
+
+# Funkcija izgatavota, lai veiktu pasūtījuma aprēķināšana, ievadot dotās vērtības tiek izdots kopsumma pasūtītājam, kā arī paskaidrojumi, kā pasūtītājs varētu spēt gūt atlaides.
