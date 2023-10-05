@@ -1,0 +1,20 @@
+def laukums():
+    k=0
+    x=0
+    m=8
+    m1=8/4
+    m2=8/4+2
+    m3=8*35/100
+    m4=1.3
+    while x<10:
+        print(m,m1,m2,m3,m4)
+        m *=1.05
+        m1 *=1.05
+        m2 *=1.05
+        m3 *=1.05
+        m4 *=1.05
+        x+=1
+        k=m+m1+m2+m3+m4
+    print(k,'kopējais noklātais daudzums m²')
+print(laukums())
+# Izveidota funkcija, kas aprēķina komandas veikto darbu 10 dienu laikā,ņemot vērā mācekļa apguvi laika gaitā.

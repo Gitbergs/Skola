@@ -1,0 +1,5 @@
+# x='7:30'
+# y = x.replace(':','.')
+# print(y)
+# z= float(y)
+# print(z.strftime('%M'))
