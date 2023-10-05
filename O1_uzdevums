@@ -1,0 +1,19 @@
+def datutips(data):
+    x = data.find('.gif')
+    x1=data.find('.jpg')
+    x2=data.find('.bmp')
+    y=data.find('.txt')
+    y1=data.find('.doc')
+    y2=data.find('.pdf')
+    xk = x+x1+x2
+    yk = y+y1+y2
+    if xk >-1:
+        print('šis ir attēls')
+    elif yk >-1:
+        print('šis ir teksta dokuments')
+    else:
+        print('fails nav atpazīts')
+# print(datutips('atfgdrgrdt.txt'))
+# # print(datutips('atfgdrgrdt.jpg'))
+# print(datutips('atfgdrgrdt.tlt'))
+# Izveidota funkcija, kurā, pēc faila paplašinājuma nosaka kāds ir faila datu tips, ja to neatpazīst, tad tas arī tiek paziņots.
