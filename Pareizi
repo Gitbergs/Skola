@@ -1,0 +1,14 @@
+import csv
+arhivs = open('vards_uzvards_vecums_nodarbošanās.csv','r') 
+# Atver csv failu
+lasitajs = csv.reader(arhivs,delimiter=',')
+# Izveido csv lasītāja objektu
+for ieraksts in lasitajs: 
+    # Cikla nolasu visus ierakstus
+    vards = ieraksts[0] 
+    # Atlasa tikai varda un nodarbosanās laukus
+    nodarbosanas = ieraksts[3]
+    print(f"{vards}-{nodarbosanas}") 
+    # Izdrukā ierakstu
+arhivs.close()
+# Aizver csv failu

@@ -1,0 +1,8 @@
+import csv
+fields = ['Vards', 'Uzvards', 'Vecums', 'Nodarbosanas']
+rows = [['Guntis','Eihenbergs', '18', 'Skolens' ]]
+with open('vards_uzvards_vecums_nodarbošanās.csv','w') as f:
+    csvwriter = csv.writer(f)
+    csvwriter.writerow(fields)
+    csvwriter.writerows(rows)
+f.close()
